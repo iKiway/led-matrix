@@ -36,5 +36,6 @@ git clone https://github.com/hzeller/rpi-rgb-led-matrix
 ```
 ## Usage
 This libary is for matrices with the sice 64x32 pixel (non Adafruit).
+
 The program can only be started as sudo!
 
