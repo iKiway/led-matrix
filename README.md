@@ -25,7 +25,7 @@ libary [Pillow](https://github.com/python-pillow/Pillow/) required
 pip install pillow
 ```
 ### 4. Download
-Download the libary [rpi-rgb-led-matrix]n(https://github.com/hzeller/rpi-rgb-led-matrix/tree/master).
+Download the libary [rpi-rgb-led-matrix](https://github.com/hzeller/rpi-rgb-led-matrix/tree/master).
 This libary can't be downloaded with pip. 
 ## Usage
 This libary is for matrices with the sice 64x32 pixel (non Adafruit).
