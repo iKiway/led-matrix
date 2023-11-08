@@ -5,7 +5,6 @@
 # standard imports
 import time
 from typing import Any
-import numpy as np
 import threading
 import sys
 sys.path.append('/home/kimon/.local/lib/python3.11/site-packages')
@@ -265,7 +264,6 @@ class DB_App(App):
 
     
 
-color = list(np.random.choice(range(256), size=3))
 color = (100,100,100)
 Test = DB_App(test_matrix,color,10,"Rommelshausen",False,False)
 Test.set_train_list()
