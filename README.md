@@ -14,9 +14,15 @@ This will allow pip to install packages globally.
 Please consider this option well.
 
 ### 2. Download the pip libarys
-Only libary [pyhafas](https://github.com/FahrplanDatenGarten/pyhafas) required
+libary [pyhafas](https://github.com/FahrplanDatenGarten/pyhafas) required
 ```
 pip install pyhafas
 ```
+libary [Pillow](https://github.com/python-pillow/Pillow/) required
+```
+pip install pillow
+```
+### 3. Download
 
 ## Usage
+This libary is for matrices with the sice 64x32 pixel (non Adafruit).
