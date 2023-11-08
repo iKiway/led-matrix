@@ -1,6 +1,6 @@
 # led-matrix
 
-## setup
+## Setup
 ### 1. Allow Pip to install global packages
 You first need to install the "pyhafas" libary via pip. It's importaint to say, that under the standard configuration of the Raspberry pi there is no download via pip without an virtual environment possible. Therefore some changes in the pip.config file are necessary (see [stack overflow](https://stackoverflow.com/questions/75608323/how-do-i-solve-error-externally-managed-environment-every-time-i-use-pip-3)):
 
@@ -18,3 +18,5 @@ Only libary [pyhafas](https://github.com/FahrplanDatenGarten/pyhafas) required
 ```
 pip install pyhafas
 ```
+
+## Usage
