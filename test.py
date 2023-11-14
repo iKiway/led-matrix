@@ -28,6 +28,15 @@ color = graphics.Color(255, 0, 0)
 
 x = matrix.width
 
+def thread():
+    while True:
+        
+        time.sleep(30)
+
+
+thread_reload = threading.Thread(target=thread, group=None)
+thread_reload.start()
+
 def clock(zeit):
     time.sleep(zeit)
 
