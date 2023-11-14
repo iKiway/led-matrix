@@ -86,6 +86,8 @@ class DB_App(App):
         self.font_normal = graphics.Font()
         self.x_running_text_upper = self.matrix.width-2
         self.x_running_text_lower = self.matrix.width-2
+        self.S2 = Image.open(f'icons/{train_type}{train_number}.png')
+        self.S2 = self.S2.convert("RGB")
         
         self.setup()
 
@@ -136,7 +138,7 @@ class DB_App(App):
 
     def departure_time(self):
         print("ls")
-
+# sdf
 
 
 
@@ -152,10 +154,11 @@ class DB_App(App):
         train_type = ''.join([char for char in train.name if char.isalpha()]) 
         train_number =  ''.join([char for char in train.name if char.isdigit()])
         if train_type =='S':
-            image = Image.open(f'icons/{train_type}{train_number}.png')
+            # image = Image.open(f'icons/{train_type}{train_number}.png')
+            image = self.S2
         else:
             image = Image.open('icons/standard.png')
-        image = image.convert("RGB")
+        # image = image.convert("RGB")
         for x in range(17):
             for y in range(14):
                 r, g, b = image.getpixel((x, y))
