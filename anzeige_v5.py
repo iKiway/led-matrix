@@ -153,9 +153,9 @@ class DB_App(App):
             y_pixel = 1
         else:
             y_pixel = 17
-
-        train_type = ''.join([char for char in train.name if char.isalpha()]) 
-        train_number =  ''.join([char for char in train.name if char.isdigit()])
+        train_type = "S"
+        # train_type = ''.join([char for char in train.name if char.isalpha()]) 
+        # train_number =  ''.join([char for char in train.name if char.isdigit()])
         if train_type =='S':
             # image = Image.open(f'icons/{train_type}{train_number}.png')
             image = self.S2
