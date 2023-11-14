@@ -1,4 +1,7 @@
 # led-matrix
+## Hardware
+Connect the RGB Matrix as required.
+For help see [here](https://www.reichelt.de/magazin/projekte/mit-dem-raspberry-pi-individuel-auf-led-matrizen-anzeigen/)
 
 ## Setup
 ### 1. Allow Pip to install global packages
