@@ -218,7 +218,7 @@ class DB_App(App):
             y = 16
             len = graphics.DrawText(self.canvas,self.font_normal,self.x_running_text_lower,8+y,graphics.Color(255,255,255),train.direction)
 
-            self.x_running_text_lower -=2
+            self.x_running_text_lower -=1
 
             if self.x_running_text_lower + len < 19:
                 self.x_running_text_lower = self.matrix.width -2
@@ -241,13 +241,13 @@ class DB_App(App):
         self.canvas.Clear()
         self.display_final_destination(current_list[0])
         self.display_final_destination(current_list[1],True)
-        self.background_type_and_number()
+        # self.background_type_and_number()
 
         super().display()
         # print(current_list[0].train_changes.departure)
         self.display_departure(current_list[0])
         self.display_departure(current_list[1],True)
-        self.background_type_and_number()
+        # self.background_type_and_number()
 
 
         self.icon(current_list[0])
