@@ -92,8 +92,8 @@ class DB_App(App):
 # Sets up all nessesary parameters/ variables of the class
     def setup(self):
         
-            self.font_small.LoadFont("/home/kimon/rpi-rgb-led-matrix/fonts/4x6.bdf")
-            self.font_normal.LoadFont("/home/kimon/rpi-rgb-led-matrix/fonts/5x7.bdf")
+            self.font_small.LoadFont("4x6.bdf")
+            self.font_normal.LoadFont("5x7.bdf")
         
     
 
