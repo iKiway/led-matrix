@@ -264,7 +264,7 @@ class DB_App(App):
     
 
 color = (100,100,100)
-Test = DB_App(test_matrix,color,10,"Rommelshausen",False,False)
+Test = DB_App(test_matrix,color,20,"Rommelshausen",False,False)
 Test.set_train_list()
 def thread():
     while True:
