@@ -94,8 +94,9 @@ class DB_App(App):
         try:
             self.font_small.LoadFont("/home/kimon/rpi-rgb-led-matrix/fonts/4x6.bdf")
             self.font_normal.LoadFont("/home/kimon/rpi-rgb-led-matrix/fonts/5x7.bdf")
-        except:
+        except Exception as e:
             print("Fehler beim laden der Fonts")
+            print(e)
     
 
     def sortieren(self,train):
