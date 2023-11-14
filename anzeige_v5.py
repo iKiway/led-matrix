@@ -61,7 +61,7 @@ class App:
             self.display_canvas = self.get_canvas()
             matrix = self.matrix
             # self.matrix.SwapOnVSync(self.display_canvas)
-            # time.sleep(1/self.hertz)
+            time.sleep(1/self.hertz)
             self.canvas = self.matrix.SwapOnVSync(self.display_canvas)
     
     def get_canvas(self):
@@ -267,7 +267,7 @@ class DB_App(App):
     
 
 color = (100,100,100)
-Test = DB_App(test_matrix,color,1,"Rommelshausen",False,False)
+Test = DB_App(test_matrix,color,100,"Rommelshausen",False,False)
 Test.set_train_list()
 def thread():
     while True:
