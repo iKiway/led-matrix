@@ -23,7 +23,7 @@ canvas = matrix.CreateFrameCanvas()
 # Text, Schriftart und Farbe
 text = "Hello, World!"
 font = graphics.Font()
-font.LoadFont("fonts/6x10.bdf")  # Passe dies entsprechend an
+font.LoadFont("6x10.bdf")  # Passe dies entsprechend an
 color = graphics.Color(255, 0, 0)
 
 x = matrix.width
