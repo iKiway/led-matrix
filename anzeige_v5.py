@@ -218,7 +218,7 @@ class DB_App(App):
             y = 16
             len = graphics.DrawText(self.canvas,self.font_normal,self.x_running_text_lower,8+y,graphics.Color(255,255,255),train.direction)
 
-            self.x_running_text_lower -=1
+            self.x_running_text_lower -=2
 
             if self.x_running_text_lower + len < 19:
                 self.x_running_text_lower = self.matrix.width -2
