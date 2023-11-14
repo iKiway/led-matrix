@@ -92,8 +92,8 @@ class DB_App(App):
 # Sets up all nessesary parameters/ variables of the class
     def setup(self):
         try:
-            self.font_small.LoadFont("/home/kimonrpi-rgb-led-matrix/fonts/4x6.bdf")
-            self.font_normal.LoadFont("/home/kimonrpi-rgb-led-matrix/fonts/5x7.bdf")
+            self.font_small.LoadFont("/home/kimon/rpi-rgb-led-matrix/fonts/4x6.bdf")
+            self.font_normal.LoadFont("/home/kimon/rpi-rgb-led-matrix/fonts/5x7.bdf")
         except:
             print("Fehler beim laden der Fonts")
     
@@ -155,7 +155,7 @@ class DB_App(App):
         if train_type =='S':
             image = Image.open(f'icons/{train_type}{train_number}.png')
         else:
-            image = Image.open('/home/kimon/led-matrix/icons/standard.png')
+            image = Image.open('icons/standard.png')
         image = image.convert("RGB")
         for x in range(17):
             for y in range(14):
