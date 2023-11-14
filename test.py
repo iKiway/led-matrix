@@ -28,13 +28,7 @@ color = graphics.Color(255, 0, 0)
 
 x = matrix.width
 
-def thread():
-    while True:
-        time.sleep(30)
 
-
-thread_reload = threading.Thread(target=thread, group=None)
-thread_reload.start()
 
 def clock(zeit):
     time.sleep(zeit)
@@ -63,7 +57,7 @@ def running_text(text,font,color,x):
         canvas = matrix.SwapOnVSync(canvas)
 
         # Kurze Verzögerung für die Animation
-        time.sleep(0.05)
+        # time.sleep(0.05)
 
 def running_text_time(canvas,text,font,color,x,seconds):
     clock_thread = threading.Thread(target=clock, args=(seconds,))
@@ -86,7 +80,7 @@ def running_text_time(canvas,text,font,color,x,seconds):
         canvas = matrix.SwapOnVSync(canvas)
 
         # Kurze Verzögerung für die Animation
-        time.sleep(0.05)
+        # time.sleep(0.05)
 
 
 running_text_time(canvas,text,font,color,x,10)
