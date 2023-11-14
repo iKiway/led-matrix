@@ -86,7 +86,7 @@ class DB_App(App):
         self.font_normal = graphics.Font()
         self.x_running_text_upper = self.matrix.width-2
         self.x_running_text_lower = self.matrix.width-2
-        self.S2 = Image.open(f'icons/{train_type}{train_number}.png')
+        self.S2 = Image.open(f'icons/S2.png')
         self.S2 = self.S2.convert("RGB")
         
         self.setup()
