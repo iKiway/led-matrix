@@ -65,7 +65,7 @@ class App:
             # time.sleep(1/self.hertz)
             print("1")
             self.canvas = self.matrix.SwapOnVSync(self.display_canvas)
-            # print("2")
+            print("3")
     
     def get_canvas(self):
         return self.canvas
