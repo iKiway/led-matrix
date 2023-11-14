@@ -253,7 +253,7 @@ class DB_App(App):
         ## self.background_type_and_number()
 
 
-        # self.icon(current_list[0])
+        self.icon(current_list[0])
 
         # self.icon(current_list[1],True)
         
