@@ -30,7 +30,6 @@ x = matrix.width
 
 def thread():
     while True:
-        
         time.sleep(30)
 
 
