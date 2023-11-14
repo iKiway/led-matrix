@@ -247,10 +247,10 @@ class DB_App(App):
         # self.background_type_and_number()
 
         super().display()
-        # ## print(current_list[0].train_changes.departure)
-        # self.display_departure(current_list[0])
-        # self.display_departure(current_list[1],True)
-        # ## self.background_type_and_number()
+        ## print(current_list[0].train_changes.departure)
+        self.display_departure(current_list[0])
+        self.display_departure(current_list[1],True)
+        ## self.background_type_and_number()
 
 
         # self.icon(current_list[0])
