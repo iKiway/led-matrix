@@ -36,6 +36,7 @@ libary [Pillow](https://github.com/python-pillow/Pillow/) required
 ```
 pip install pillow
 ```
+use the ```--break-system-packages``` flag if necessary (see 1.).
 ### 4. Download
 Download the libary [rpi-rgb-led-matrix](https://github.com/hzeller/rpi-rgb-led-matrix/tree/master).
 This libary can't be downloaded with pip. 
