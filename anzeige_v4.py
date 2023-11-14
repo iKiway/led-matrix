@@ -92,8 +92,8 @@ class DB_App(App):
 # Sets up all nessesary parameters/ variables of the class
     def setup(self):
         try:
-            self.font_small.LoadFont("/home/kimon/rpi-rgb-led-matrix/fonts/4sx6.bdf")
-            self.font_normal.LoadFont("/home/kimon/rpi-rgb-led-matrix/fonts/5xs7.bdf")
+            self.font_small.LoadFont("/home/kimon/rpi-rgb-led-matrix/fonts/4x6.bdf")
+            self.font_normal.LoadFont("/home/kimon/rpi-rgb-led-matrix/fonts/5x7.bdf")
         except Exception as e:
             print("Fehler beim laden der Fonts")
             print(e)
