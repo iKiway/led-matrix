@@ -153,7 +153,7 @@ class DB_App(App):
         train_type = ''.join([char for char in train.name if char.isalpha()]) 
         train_number =  ''.join([char for char in train.name if char.isdigit()])
         if train_type =='S':
-            image = Image.open(f'/home/kimon/led-matrix/icons/{train_type}{train_number}.png')
+            image = Image.open(f'icons/{train_type}{train_number}.png')
         else:
             image = Image.open('/home/kimon/led-matrix/icons/standard.png')
         image = image.convert("RGB")
