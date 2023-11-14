@@ -10,10 +10,22 @@ Add following lines to ```~/.config/pip/pip.conf```
 [global]
 break-system-packages = true
 ```
+or use the ```--break-system-packages``` flag behind your pip install package
 This will allow pip to install packages globally. 
 Please consider this option well.
 
+
 ### 2. Change Audio
+You need to deactivate the audio module on the raspberry pi. 
+Therefore open
+```
+sudo nano /boot/config.txt
+```
+and change the line ```dtparam=audio=on``` to ```dtparam=audio=off```.
+After that reboot the system with
+```
+sudo reboot
+```
 
 ### 3. Download the pip libarys
 libary [pyhafas](https://github.com/FahrplanDatenGarten/pyhafas) required
