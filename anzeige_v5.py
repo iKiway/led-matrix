@@ -256,7 +256,7 @@ class DB_App(App):
 
         self.icon(current_list[0])
 
-        # self.icon(current_list[1],True)
+        self.icon(current_list[1],True)
         
 
     def main(self):
