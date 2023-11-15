@@ -195,7 +195,7 @@ class DB_App(App):
 
         if train.cancelled == True:
             graphics.DrawText(self.canvas,self.font_normal,20,15+y,graphics.Color(255,0,0),departure_time.strftime('%H:%M'))
-            graphics.DrawText(self.canvas,self.font_normal,47,15+y,graphics.Color(255,0,0),"X")
+            graphics.DrawText(self.canvas,self.font_normal,47,15+y,graphics.Color(255,0,0),"XXX")
         elif train.delay != None:
             delay = round(train.delay.seconds/60)
             graphics.DrawText(self.canvas,self.font_normal,20,15+y,graphics.Color(255,255,255),f"{departure_time.strftime('%H:%M')}")
